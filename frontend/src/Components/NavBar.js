@@ -8,7 +8,7 @@ import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import logo from '../Assests/logo.png'; 
+import logo from '../assets/logo.png'; 
 
 // Styled search component
 const Search = styled("div")(({ theme }) => ({
@@ -56,7 +56,7 @@ const NavBar = () => {
       <AppBar
         position="fixed"
         sx={{
-          backgroundColor: "black",
+          background: "linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(55, 55, 55, 1) 100%)",
           marginTop: "20px",
           borderRadius: "10px",
           color: "white",
